@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse sitem em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/1695735179901.webp" type="image/webp">
+        <source media="(max-width: 1000px)" srcset="imgs/M.avif" type="image/avif">
+        <img src="imgs/G.webp" alt="Imagem Flex">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <p>Reproduza abaixo: Matue Imágina esse Cenário</p>
+    <audio src="midia/imagina_esse_cenario.mp3" controls>Imagina esse Cenário</audio>
+
+    <h1>Reproduzindo Videos</h1>
+    <p>Vamos aprender a inserir videos localmente em HTML5.</p>
+
+    <video controls width="750">
+        <source src="midia/barco.mp4" type="video/mp4">
+        <source src="midia/barco_web.webm" type="video/webm">
+    </video>
+
+    <p>Vamos aprender a inserir videos externos em HTML5 usando o YouTube.</p>
+    <iframe width="750" height="315" src="https://www.youtube.com/embed/rx8EhkXk9zs?si=z2U2zEtGpUGVw5_r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

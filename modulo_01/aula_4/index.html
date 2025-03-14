@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+    <link rel="shortcut icon" href="Evermor-Design-Galaxian-Mac.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: rgb(0, 132, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um termo em negrito usando a tag B.</p>
+    <p><em>Nesta</em> frase temos um <strong>termo em negrito</strong> usando a tag Strong.</p>
+    <p>Nesta frase temos um <em>termo em emfase</em> usando a tag Em.</p>
+
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag Mark.</p> 
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+    
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um Texto Grande e um <small>texto pequeno</small> nesse parágrafo.</p>
+
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois.</p>
+
+    <h2>Texto Sobrescrito e Subscrito</h2>
+    <p>Serve para inserir coisas do tipo x<sup>2</sup>+3.</p>
+    <p>E também para coisas do tipo H<sub>2</sub>O.</p>
+
+    <h2>Código Fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>   <!--Pre é para o uso de formatar o texto igual está escrito no VSCode-->
+        <code>
+num = int(input('Digite um numero'))
+    if num % 2 == 0:
+        print(f'O numero {num} é Par')
+    else:
+        print(f'O numero {num} é Impar)
+        </code>
+    </pre>
+
+    <h2>Citações Simples e Completas</h2>
+    <p>Simples: Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <p>Completas: Segundo Jeff Hoble, no seu livro HTML para leigos:</p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando muito.</p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
