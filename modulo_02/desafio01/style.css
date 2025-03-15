@@ -111,9 +111,16 @@ footer {
     text-align: center;
     padding: 10px;
 }
+footer a {
+    text-decoration: none;
+}
 
 strong {
     color: #FF8000;
+}
+
+footer a>strong:hover {
+    color: #ff9e3c;
 }
 
 .main2 {
