@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Background</title>
+    <style>
+        body {
+            background-image: url(images/wallpaper001.jpg);
+        }
+
+        .bloco {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        #b1 {
+            background-color: aqua;
+        }
+
+        #b2 {
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+
+        #b3 {
+            background-image: url(images/pattern003.png);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="b1"></div>
+    <div class="bloco" id="b2"></div>
+    <div class="bloco" id="b3"></div>
+</body>
+</html>
