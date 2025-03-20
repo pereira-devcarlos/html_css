@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: darkslategray;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    background-color: purple;
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
