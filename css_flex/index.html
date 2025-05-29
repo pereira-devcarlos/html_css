@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>CSS FlexBox</title>
 </head>
 <body>
+    <form>
+        <label for="t1">Email</label>
+        <input type="text" id="t1" name="Email">
+        <br>
+
+        <label for="pass">Senha</label>
+        <input type="password" name="Senha" id="pass"><br>
+
+        <label for="t2">Country</label>
+        <input type="text" id="t2" name="Cidade"><br>
+
+        <input type="radio" name="pay" id="r1" value="cash">
+        <label for="r1">Cash</label>
+
+        <input type="radio" name="pay" id="r2" value="card">
+        <label for="r2">Card</label><br>
+
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel"><br>
+        
+        <label for="g1">Escolha seu gênero:</label>
+        <select name="genero" id="g1">
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            <option value="" selected>Não listado</option>
+        </select>
+
+        <br><input type="submit">
+    </form>
+
+    <!--
     <div class="container">
         <div class="item">1</div>
         <div class="item">2</div>
@@ -15,5 +45,6 @@
         <div class="item">5</div>
         <div class="item">6</div>
     </div>
+    -->
 </body>
 </html>
